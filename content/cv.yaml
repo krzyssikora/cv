@@ -228,7 +228,7 @@ sections:
           pl: Nauczanie w wielu programach, m.in. matematyka w programie polskim, IB, brytyjskim i SAT.
       - label: {en: "09.1998 – 08.2015", pl: "09.1998 – 08.2015"}
         only: [data-scientist, educational-analyst]
-        title: {en: "Mathematics and computer science teacher, head of Maths Department", pl: "Nauczyciel matematyki i informatyki, kierownik zespołu przedmiotowego matematyki"}
+        title: {en: "Mathematics and computer science teacher", pl: "Nauczyciel matematyki i informatyki"}
         org: {en: "Schools in Warsaw and Bootham School, York, UK", pl: "Szkoły w Warszawie oraz Bootham School, York, Wielka Brytania"}
 
   education:
