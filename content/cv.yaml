@@ -264,6 +264,12 @@ sections:
   courses:
     title: {en: Courses and workshops (selection), pl: Kursy i warsztaty (wybór)}
     items:
+      - label: {en: "05.2022", pl: "05.2022"}
+        title: {en: Google Data Analytics Professional Certificate, pl: Google Data Analytics Professional Certificate}
+        org: {en: "Google, on Coursera", pl: "Google, na platformie Coursera"}
+        text:
+          en: Eight courses on preparing, processing, analysing and sharing data, using spreadsheets, SQL, Tableau and R, finishing with a case study.
+          pl: Osiem kursów z przygotowania, przetwarzania, analizy i prezentacji danych, z użyciem arkuszy kalkulacyjnych, SQL, Tableau i R, zakończonych studium przypadku.
       - label: {en: "2021 – 2023", pl: "2021 – 2023"}
         title: {en: "More than 40 IT courses, mostly on Coursera", pl: "Ponad 40 kursów informatycznych, głównie na Coursera"}
         text:
