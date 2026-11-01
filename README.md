@@ -6,7 +6,7 @@ All content is in `content/cv.yaml`.
 
 Open `content/cv.yaml` on GitHub, click the pencil icon, make the change and commit it. The site rebuilds itself, usually within a couple of minutes.
 
-## Edit on this computer
+## Edit locally
 
 ```
 uv sync
@@ -17,7 +17,7 @@ uv run python build.py
 The build writes:
 
 - `dist/`: the public web pages and PDFs, in the form `dist/en/developer/`.
-- `private-pdfs/`: PDFs with the address and phone number, for sending directly to someone. These need `content/private.yaml`, which stays on this computer and is never uploaded.
+- `private-pdfs/`: PDFs with the address and phone number, for sending directly to someone. These need `content/private.yaml`, which is kept out of this repository.
 
 Push to `main` to publish.
 
