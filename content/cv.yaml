@@ -270,13 +270,13 @@ sections:
         org: {en: "Duke University, on Coursera", pl: "Duke University, na platformie Coursera"}
         text:
           en: Four courses covering Python and pandas, Linux and Bash, scripting with Python and SQL, and web applications and command-line tools for data engineering.
-          pl: Cztery kursy obejmujące Pythona i pandas, Linuksa i Bash, skrypty w Pythonie i SQL oraz aplikacje internetowe i narzędzia wiersza poleceń w inżynierii danych.
+          pl: "Cztery kursy: Python i pandas, Linux i Bash, skrypty w Pythonie i SQL, narzędzia inżynierii danych."
       - label: {en: "05.2022", pl: "05.2022"}
         title: {en: Google Data Analytics Professional Certificate, pl: Google Data Analytics Professional Certificate}
         org: {en: "Google, on Coursera", pl: "Google, na platformie Coursera"}
         text:
           en: Eight courses on preparing, processing, analysing and sharing data, using spreadsheets, SQL, Tableau and R, finishing with a case study.
-          pl: Osiem kursów z przygotowania, przetwarzania, analizy i prezentacji danych, z użyciem arkuszy kalkulacyjnych, SQL, Tableau i R, zakończonych studium przypadku.
+          pl: Osiem kursów z przygotowania, analizy i prezentacji danych (arkusze kalkulacyjne, SQL, Tableau, R).
       - label: {en: "2021 – 2023", pl: "2021 – 2023"}
         title: {en: "About 60 IT courses, mostly on Coursera", pl: "Około 60 kursów informatycznych, głównie na Coursera"}
         text:
