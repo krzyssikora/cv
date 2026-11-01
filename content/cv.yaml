@@ -1,0 +1,293 @@
+# All CV content lives in this file. Edit it, then run: uv run python build.py
+#
+# Any text that differs by language is written as {en: ..., pl: ...}.
+# The build stops with an error if one language is missing.
+# In the one-line {en: ..., pl: ...} form, put text containing a comma in "quotes".
+
+person:
+  name: Krzysztof Sikora
+  # Address and phone are in content/private.yaml, which is never uploaded.
+  email: {text: krzyssikora@gmail.com, href: "mailto:krzyssikora@gmail.com"}
+  github: {text: github.com/krzyssikora, href: "https://github.com/krzyssikora"}
+
+# The version opened by the site's main address.
+default_variant: data-scientist
+
+# General RODO clause, printed only at the end of Polish PDFs.
+consent_pl: >-
+  Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w niniejszym
+  dokumencie na potrzeby procesu rekrutacji, zgodnie z art. 6 ust. 1 lit. a rozporządzenia
+  Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. (RODO).
+
+# Each variant is one version of the CV: its own summary and its own section order.
+# An item with "only: [...]" appears just in the versions listed. Other items appear in all.
+variants:
+  data-scientist:
+    headline:
+      en: Mathematics, education, software engineering
+      pl: Matematyka, edukacja, inżynieria oprogramowania
+    summary:
+      en: >-
+        After 23 years of teaching and leading in schools, across the Polish, IB and
+        A-Level curricula, I moved into software engineering in 2022, and I now build
+        AI agent workflows in production at Readwise. This suits work on educational
+        data: I know how schools run and what their data means, I have studied and
+        taught statistics, and I work with LLMs as a regular part of my job.
+      pl: >-
+        Mam za sobą 23 lata pracy w szkołach jako nauczyciel matematyki, kierownik
+        działu i wicedyrektor, w programie polskim, IB i A-Level. Od 2022 roku zajmuję
+        się inżynierią oprogramowania, a w firmie Readwise buduję produkcyjne rozwiązania
+        oparte na agentach AI. Dobrze przygotowuje mnie to do pracy z danymi edukacyjnymi:
+        wiem, jak działa szkoła i co oznaczają jej dane, statystykę znam ze studiów
+        i z nauczania, a z modelami językowymi (LLM) pracuję regularnie.
+    strands:
+      - title: {en: Schools, pl: Szkoły}
+        text:
+          en: Head of mathematics and deputy head. Polish curriculum, International Baccalaureate and A Levels.
+          pl: Kierowanie działem matematyki i funkcja wicedyrektora. Program polski, matura międzynarodowa (IB) i A Levels.
+      - title: {en: Data and statistics, pl: Dane i statystyka}
+        text:
+          en: M.Sc. in mathematics. Statistics studied at university and taught at A Level. Surveys and analysis of school data, reported up to board level.
+          pl: Magisterium z matematyki. Statystyka na studiach i w nauczaniu A-Level. Ankiety i analiza danych szkolnych, z raportowaniem aż do organu prowadzącego.
+      - title: {en: Software and AI, pl: Oprogramowanie i AI}
+        text:
+          en: Python in production since 2022. LLM agent workflows at Readwise, with measurable checks and human review built in.
+          pl: Python produkcyjnie od 2022 roku. Rozwiązania z agentami LLM w Readwise, z mierzalną weryfikacją i kontrolą człowieka.
+    sections: [school_data, experience, education, skills, courses]
+
+  developer:
+    headline:
+      en: Python developer with a background in mathematics and education
+      pl: Programista Pythona z zapleczem w matematyce i edukacji
+    summary:
+      en: >-
+        I work on the backend of Readwise Reader with Python, Django, PostgreSQL, Celery
+        and Redis, and I build AI agent workflows that run in production. I moved into
+        software engineering in 2022 after 23 years in schools as a teacher of mathematics
+        and computer science, head of department and deputy head. I bring an M.Sc. in
+        mathematics and years of experience leading teams.
+      pl: >-
+        Pracuję nad backendem aplikacji Readwise Reader, korzystając z Pythona, Django,
+        PostgreSQL, Celery i Redisa, i buduję produkcyjne rozwiązania oparte na agentach AI.
+        Inżynierią oprogramowania zajmuję się od 2022 roku, a wcześniej przez 23 lata
+        pracowałem w szkołach jako nauczyciel matematyki i informatyki, kierownik działu
+        i wicedyrektor. Mam magisterium z matematyki i wieloletnie doświadczenie
+        w kierowaniu zespołami.
+    strands:
+      - title: {en: Backend, pl: Backend}
+        text:
+          en: Python in production since 2022. Django, PostgreSQL, Celery and Redis at Readwise.
+          pl: Python produkcyjnie od 2022 roku. Django, PostgreSQL, Celery i Redis w Readwise.
+      - title: {en: AI agents, pl: Agenci AI}
+        text:
+          en: LLM agent workflows at Readwise, with measurable checks and human review built in.
+          pl: Rozwiązania z agentami LLM w Readwise, z mierzalną weryfikacją i kontrolą człowieka.
+      - title: {en: Mathematics and leadership, pl: Matematyka i kierowanie}
+        text:
+          en: M.Sc. in mathematics, including statistics. Head of mathematics and deputy head in schools.
+          pl: Magisterium z matematyki, w tym statystyka. Kierowanie działem matematyki i funkcja wicedyrektora w szkołach.
+    sections: [experience, skills, education, courses]
+
+  educational-analyst:
+    headline:
+      en: Education, data analysis, technology
+      pl: Edukacja, analiza danych, technologia
+    summary:
+      en: >-
+        For 23 years I worked in schools, across the Polish, IB and A-Level curricula, as a
+        mathematics teacher, head of department and deputy head. Much of that leadership work
+        relied on evidence: designing questionnaires, analysing subject choices and presenting
+        the findings to students, parents, teachers and school boards. Since 2022 I have
+        worked as a software engineer, so I can also build the tools that process and
+        analyse data.
+      pl: >-
+        Przez 23 lata pracowałem w szkołach, w programie polskim, IB i A-Level, jako nauczyciel
+        matematyki, kierownik działu i wicedyrektor. Duża część tej pracy opierała się na
+        danych: projektowałem ankiety, analizowałem wybory przedmiotów i przedstawiałem wyniki
+        uczniom, rodzicom, nauczycielom i zarządom szkół. Od 2022 roku zajmuję się inżynierią
+        oprogramowania, więc potrafię też budować narzędzia do przetwarzania i analizy danych.
+    strands:
+      - title: {en: Schools, pl: Szkoły}
+        text:
+          en: Head of mathematics and deputy head. Polish curriculum, International Baccalaureate and A Levels.
+          pl: Kierowanie działem matematyki i funkcja wicedyrektora. Program polski, matura międzynarodowa (IB) i A Levels.
+      - title: {en: Analysis and reporting, pl: Analiza i raportowanie}
+        text:
+          en: Questionnaires and subject-choice analysis, with results presented from classroom to board level. Statistics studied and taught.
+          pl: Ankiety i analiza wyborów przedmiotów, z prezentacją wyników od uczniów po organ prowadzący. Statystyka na studiach i w nauczaniu.
+      - title: {en: Technology, pl: Technologia}
+        text:
+          en: Python in production since 2022. LLM agent workflows at Readwise, with measurable checks and human review built in.
+          pl: Python produkcyjnie od 2022 roku. Rozwiązania z agentami LLM w Readwise, z mierzalną weryfikacją i kontrolą człowieka.
+    sections: [school_data, experience, skills, education, courses]
+
+sections:
+  school_data:
+    title: {en: Educational data work, pl: Praca z danymi edukacyjnymi}
+    intro:
+      en: Carried out as head of department and deputy head, in most of the schools listed below.
+      pl: Realizowane jako kierownik działu i wicedyrektor, w większości wymienionych niżej szkół.
+    items:
+      - title: {en: Subject choices and student pathways, pl: Wybory przedmiotów i ścieżki edukacyjne}
+        text:
+          en: >-
+            Analysed the subject choices of multiple year groups alongside university
+            requirements, and used the results to design educational paths. The aim was to
+            help students succeed in their strongest areas and reach the universities they
+            chose, while making the timetable easier to build and friendlier for students.
+          pl: >-
+            Analiza wyborów przedmiotów w wielu rocznikach oraz wymagań uczelni, a na tej
+            podstawie projektowanie ścieżek edukacyjnych. Celem było ułatwienie uczniom
+            sukcesu w ich najmocniejszych obszarach i dostania się na wybrane uczelnie, a przy
+            tym łatwiejsze układanie planu lekcji i większa jego wygoda dla uczniów.
+      - title: {en: Surveys and questionnaires, pl: Ankiety i badania}
+        text:
+          en: >-
+            Designed, created and ran questionnaires for students, parents and teachers,
+            collected, cleaned and analysed the results, and presented them to students, teachers, parents, heads
+            and the school board. They measured:
+          pl: >-
+            Projektowanie, przygotowanie i prowadzenie ankiet dla uczniów, rodziców
+            i nauczycieli, zbieranie, czyszczenie, analiza i opracowanie wyników oraz ich prezentacja uczniom, nauczycielom,
+            rodzicom, dyrekcji i zarządowi szkoły. Ankiety badały:
+        points:
+          - en: quality of teaching and of the work of school departments
+            pl: jakość nauczania i pracy poszczególnych działów szkoły
+          - en: students' and parents' attitudes to the school and their expectations
+            pl: nastawienie uczniów i rodziców do szkoły oraz ich oczekiwania
+          - en: students' future plans and how the school could support them
+            pl: plany uczniów na przyszłość i sposoby wspierania ich przez szkołę
+          - en: student wellbeing, including how students felt during a crisis at one school
+            pl: dobrostan uczniów, w tym ich samopoczucie w sytuacji kryzysowej w jednej ze szkół
+
+  experience:
+    title: {en: Work experience, pl: Doświadczenie zawodowe}
+    items:
+      - label: {en: "03.2023 – present", pl: "03.2023 – obecnie"}
+        title: {en: "Parsing Engineer, Python Developer", pl: "Parsing Engineer, Python Developer"}
+        org: {en: "Readwise Inc., USA", pl: "Readwise Inc., USA"}
+        text:
+          en: Backend of the Readwise Reader application, mainly parsing and processing content from many sources, using Python, Django, PostgreSQL, Celery and Redis.
+          pl: Backend aplikacji Readwise Reader, głównie parsowanie i przetwarzanie treści z wielu źródeł, z użyciem Pythona, Django, PostgreSQL, Celery i Redisa.
+        points:
+          - en: >-
+              Built an AI agent workflow that automates fixing parsing problems on a website.
+              Agents review reported issues and sample URLs added by users, analyse possible
+              solutions, and verify each fix against measurable criteria: length of the relevant
+              content, images, videos, code blocks, noise to be removed, and before-and-after
+              screenshots.
+            pl: >-
+              Budowa rozwiązania z agentami AI, które automatyzuje naprawę problemów z parsowaniem
+              danej witryny. Agenci sprawdzają zgłoszone problemy i przykładowe adresy URL dodane
+              przez użytkowników, analizują możliwe rozwiązania i weryfikują każdą poprawkę według
+              mierzalnych kryteriów: długość właściwej treści, obrazy, filmy, bloki kodu, szum do
+              usunięcia oraz zrzuty ekranu przed poprawką i po niej.
+          - en: >-
+              Agents judge whether each issue is fixed, which works in most cases, and the rest
+              come to me for manual review. The usual result is a pull request with the code
+              changes, and the work is around 10 times faster than doing it by hand.
+            pl: >-
+              Agenci oceniają, czy problem został naprawiony, co sprawdza się w większości
+              przypadków, a pozostałe trafiają do weryfikacji ręcznej. Zwykle powstaje pull request
+              ze zmianami w kodzie, a praca przebiega około 10 razy szybciej niż ręcznie.
+          - en: Regular use of AI agents to analyse web content, and reusable agent skills written for use at Readwise and in my own work.
+            pl: Regularne korzystanie z agentów AI do analizy treści internetowych oraz tworzenie wielokrotnie używanych umiejętności (skills) agentów do pracy w Readwise i na własne potrzeby.
+      - label: {en: "03.2022 – 03.2023", pl: "03.2022 – 03.2023"}
+        title: {en: Python Support Developer, pl: Python Support Developer}
+        org: {en: "Platige Image, Warsaw", pl: "Platige Image, Warszawa"}
+        text:
+          en: Supported two parallel production pipelines for different versions of graphics software, in Python 2.7 and 3.9.
+          pl: Wsparcie dwóch równoległych potoków produkcyjnych dla różnych wersji oprogramowania graficznego, w Pythonie 2.7 i 3.9.
+      - label: {en: "09.1998 – 06.2021", pl: "09.1998 – 06.2021"}
+        only: [developer]
+        title: {en: "Mathematics and computer science teacher, head of Maths Department, deputy head", pl: "Nauczyciel matematyki i informatyki, kierownik działu matematyki, wicedyrektor"}
+        org: {en: "Schools in Warsaw and Bootham School, York, UK", pl: "Szkoły w Warszawie oraz Bootham School, York, Wielka Brytania"}
+        text:
+          en: Taught the Polish, IB and A-Level curricula, led mathematics departments, and collected and analysed school data.
+          pl: Nauczanie w programie polskim, IB i A-Level, kierowanie działami matematyki oraz zbieranie i analiza danych szkolnych.
+      - label: {en: "09.2016 – 06.2021", pl: "09.2016 – 06.2021"}
+        only: [data-scientist, educational-analyst]
+        title: {en: "Mathematics teacher, deputy head, head of Maths Department", pl: "Nauczyciel matematyki, wicedyrektor, kierownik działu matematyki"}
+        org: {en: "Akademeia High School, Warsaw", pl: "Akademeia High School, Warszawa"}
+        text:
+          en: Taught Maths and Further Maths, including statistics, in the British A-Level programme. Responsible for the Maths Department, the School Office, and collecting and analysing school data.
+          pl: Nauczanie Maths i Further Maths, w tym statystyki, w brytyjskim programie A-Level. Odpowiedzialność za dział matematyki, sekretariat szkoły oraz zbieranie i analizę danych szkolnych.
+      - label: {en: "09.2015 – 08.2019", pl: "09.2015 – 08.2019"}
+        only: [data-scientist, educational-analyst]
+        title: {en: "Mathematics teacher, head of Maths Department", pl: "Nauczyciel matematyki, kierownik działu matematyki"}
+        org: {en: "2nd SLO IB, Warsaw", pl: "2. SLO IB, Warszawa"}
+        text:
+          en: Taught Mathematics Higher Level in the International Baccalaureate programme. Led the team running surveys and questionnaires, analysed the data and presented the outcomes.
+          pl: Nauczanie Mathematics Higher Level w programie matury międzynarodowej (IB). Kierowanie zespołem prowadzącym ankiety i badania, analiza danych i prezentacja wyników.
+      - label: {en: "09.2008 – 08.2017", pl: "09.2008 – 08.2017"}
+        only: [data-scientist, educational-analyst]
+        title: {en: "Mathematics teacher, head of Maths Department", pl: "Nauczyciel matematyki, kierownik działu matematyki"}
+        org: {en: "Akademeia Tutorial College, Warsaw", pl: "Akademeia Tutorial College, Warszawa"}
+        text:
+          en: Taught a number of curricula, including Polish, IB, British and SAT Mathematics.
+          pl: Nauczanie w wielu programach, m.in. matematyka w programie polskim, IB, brytyjskim i SAT.
+      - label: {en: "09.1998 – 08.2015", pl: "09.1998 – 08.2015"}
+        only: [data-scientist, educational-analyst]
+        title: {en: "Mathematics and computer science teacher, head of Maths Department", pl: "Nauczyciel matematyki i informatyki, kierownik działu matematyki"}
+        org: {en: "Schools in Warsaw and Bootham School, York, UK", pl: "Szkoły w Warszawie oraz Bootham School, York, Wielka Brytania"}
+
+  education:
+    title: {en: Education, pl: Wykształcenie}
+    items:
+      - label: {en: "2000", pl: "2000"}
+        title: {en: M.Sc. in mathematics, pl: Magister matematyki}
+        org: {en: University of Warsaw, pl: Uniwersytet Warszawski}
+      - label: {en: "1994 – 1997", pl: "1994 – 1997"}
+        title: {en: Simultaneous studies in mathematics and computer science, pl: Równoległe studia z matematyki i informatyki}
+        org: {en: "Faculty of Mathematics, Informatics and Mechanics, University of Warsaw", pl: "Wydział Matematyki, Informatyki i Mechaniki, Uniwersytet Warszawski"}
+
+  skills:
+    title: {en: Skills, pl: Umiejętności}
+    items:
+      - label: {en: Programming, pl: Programowanie}
+        text:
+          en: Python (main language), Django, PostgreSQL, Celery, Redis. Working knowledge of SQL and HTML, basics of JavaScript.
+          pl: Python (główny język), Django, PostgreSQL, Celery, Redis. Praktyczna znajomość SQL i HTML, podstawy JavaScriptu.
+      - label: {en: AI, pl: AI}
+        text:
+          en: LLM agents and agent skills, verification of agent results, and building small applications with AI coding tools.
+          pl: Agenci LLM i ich umiejętności (skills), weryfikacja wyników pracy agentów, budowa małych aplikacji za pomocą narzędzi AI do programowania.
+      - label: {en: Data, pl: Dane}
+        text:
+          en: Statistics, questionnaire design, and presenting results to non-technical audiences.
+          pl: Statystyka, projektowanie ankiet, prezentacja wyników odbiorcom nietechnicznym.
+      - label: {en: Languages, pl: Języki}
+        text:
+          en: Polish (native), English (fluent), Spanish (basic).
+          pl: polski (ojczysty), angielski (biegły), hiszpański (podstawowy).
+
+  courses:
+    title: {en: Courses and workshops (selection), pl: Kursy i warsztaty (wybór)}
+    items:
+      - label: {en: "2021 – 2023", pl: "2021 – 2023"}
+        title: {en: "More than 40 IT courses, mostly on Coursera", pl: "Ponad 40 kursów informatycznych, głównie na Coursera"}
+        text:
+          en: Python (including Flask and Django), JavaScript, web development and data analysis.
+          pl: Python (w tym Flask i Django), JavaScript, tworzenie aplikacji internetowych i analiza danych.
+      - label: {en: "2018", pl: "2018"}
+        title: {en: Math and Tech, pl: Math and Tech}
+        org: {en: "Phillips Exeter Academy, New Hampshire, USA", pl: "Phillips Exeter Academy, New Hampshire, USA"}
+        text:
+          en: Applications of maths in technology, and technology in mathematical education.
+          pl: Zastosowania matematyki w technologii oraz technologii w nauczaniu matematyki.
+      - label: {en: "2015", pl: "2015"}
+        title: {en: Digital Kit, pl: Digital Kit}
+        org: {en: Panoptykon Foundation, pl: Fundacja Panoptykon}
+        text:
+          en: Privacy, internet security and personal data management.
+          pl: Prywatność, bezpieczeństwo w internecie i zarządzanie danymi osobowymi.
+      - label: {en: "2003 – 2004", pl: "2003 – 2004"}
+        title: {en: Nonviolent Communication, pl: Porozumienie bez przemocy (NVC)}
+        org: {en: Marshall Rosenberg, pl: Marshall Rosenberg}
+
+# Words used by the page itself.
+labels:
+  contact: {en: Contact, pl: Kontakt}
+  document_title: {en: Krzysztof Sikora CV, pl: Krzysztof Sikora CV}
+  download_pdf: {en: Download PDF, pl: Pobierz PDF}
+  other_language: {en: Polski, pl: English}

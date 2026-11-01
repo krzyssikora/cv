@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+dist/
+private-pdfs/
+
+# Private details: never upload these.
+content/private.yaml
+
+# Previous CV: it contains the home address and phone number.
+cv.html
+cv_styles.css
+fidzi.png

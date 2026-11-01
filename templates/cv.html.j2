@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ labels.document_title }}</title>
+  <link rel="stylesheet" href="{{ asset_root }}/cv.css">
+</head>
+<body>
+  {% if not for_pdf %}
+  <nav class="toolbar">
+    <a href="../../{{ other_lang }}/{{ variant_name }}/" lang="{{ other_lang }}">{{ labels.other_language }}</a>
+    <a class="download" href="{{ pdf_name }}" download>{{ labels.download_pdf }}</a>
+  </nav>
+  {% endif %}
+  <main class="cv">
+    <header class="masthead">
+      <div>
+        <h1>{{ person.name }}</h1>
+        <p class="headline">{{ variant.headline }}</p>
+      </div>
+      <address class="contact" aria-label="{{ labels.contact }}">
+        {% if person.address %}<span>{{ person.address }}</span>{% endif %}
+        {% if person.phone %}<a href="{{ person.phone.href }}">{{ person.phone.text }}</a>{% endif %}
+        <a href="{{ person.email.href }}">{{ person.email.text }}</a>
+        <a href="{{ person.github.href }}">{{ person.github.text }}</a>
+      </address>
+    </header>
+
+    <p class="summary">{{ variant.summary }}</p>
+
+    <div class="strands">
+      {% for strand in variant.strands %}
+      <div class="strand">
+        <h2>{{ strand.title }}</h2>
+        <p>{{ strand.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% for section in sections %}
+    <section class="section">
+      <h2>{{ section.title }}</h2>
+      {% if section.intro %}<p class="intro">{{ section.intro }}</p>{% endif %}
+      {% for item in section["items"] %}
+      <div class="item{% if not item.label %} item--wide{% endif %}">
+        {% if item.label %}<div class="item-label">{{ item.label }}</div>{% endif %}
+        <div class="item-body">
+          {% if item.title %}<h3>{{ item.title }}</h3>{% endif %}
+          {% if item.org %}<p class="org">{{ item.org }}</p>{% endif %}
+          {% if item.text %}<p>{{ item.text }}</p>{% endif %}
+          {% if item.points %}
+          <ul>
+            {% for point in item.points %}<li>{{ point }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+    {% endfor %}
+
+    {% if for_pdf and consent %}
+    <p class="consent">{{ consent }}</p>
+    {% endif %}
+  </main>
+</body>
+</html>
