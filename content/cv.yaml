@@ -35,7 +35,7 @@ variants:
         taught statistics, and I work with LLMs as a regular part of my job.
       pl: >-
         Mam za sobą 23 lata pracy w szkołach jako nauczyciel matematyki, kierownik
-        działu i wicedyrektor, w programie polskim, IB i A-Level. Od 2022 roku zajmuję
+        zespołu przedmiotowego i wicedyrektor, w programie polskim, IB i A-Level. Od 2022 roku zajmuję
         się inżynierią oprogramowania, a w firmie Readwise buduję produkcyjne rozwiązania
         oparte na agentach AI. Dobrze przygotowuje mnie to do pracy z danymi edukacyjnymi:
         wiem, jak działa szkoła i co oznaczają jej dane, statystykę znam ze studiów
@@ -44,11 +44,11 @@ variants:
       - title: {en: Schools, pl: Szkoły}
         text:
           en: Head of mathematics and deputy head. Polish curriculum, International Baccalaureate and A Levels.
-          pl: Kierowanie działem matematyki i funkcja wicedyrektora. Program polski, matura międzynarodowa (IB) i A Levels.
+          pl: Kierowanie zespołem przedmiotowym matematyki i funkcja wicedyrektora. Program polski, matura międzynarodowa (IB) i A Levels.
       - title: {en: Data and statistics, pl: Dane i statystyka}
         text:
           en: M.Sc. in mathematics. Statistics studied at university and taught at A Level. Surveys and analysis of school data, reported up to board level.
-          pl: Magisterium z matematyki. Statystyka na studiach i w nauczaniu A-Level. Ankiety i analiza danych szkolnych, z raportowaniem aż do organu prowadzącego.
+          pl: Magisterium z matematyki. Statystyka na studiach i w nauczaniu A-Level. Ankiety i analiza danych szkolnych, z raportowaniem do organu prowadzącego.
       - title: {en: Software and AI, pl: Oprogramowanie i AI}
         text:
           en: Python in production since 2022. LLM agent workflows at Readwise, with measurable checks and human review built in.
@@ -70,7 +70,7 @@ variants:
         Pracuję nad backendem aplikacji Readwise Reader, korzystając z Pythona, Django,
         PostgreSQL, Celery i Redisa, i buduję produkcyjne rozwiązania oparte na agentach AI.
         Inżynierią oprogramowania zajmuję się od 2022 roku, a wcześniej przez 23 lata
-        pracowałem w szkołach jako nauczyciel matematyki i informatyki, kierownik działu
+        pracowałem w szkołach jako nauczyciel matematyki i informatyki, kierownik zespołu przedmiotowego
         i wicedyrektor. Mam magisterium z matematyki i wieloletnie doświadczenie
         w kierowaniu zespołami.
     strands:
@@ -85,7 +85,7 @@ variants:
       - title: {en: Mathematics and leadership, pl: Matematyka i kierowanie}
         text:
           en: M.Sc. in mathematics, including statistics. Head of mathematics and deputy head in schools.
-          pl: Magisterium z matematyki, w tym statystyka. Kierowanie działem matematyki i funkcja wicedyrektora w szkołach.
+          pl: Magisterium z matematyki, w tym statystyka. Kierowanie zespołem przedmiotowym matematyki i funkcja wicedyrektora w szkołach.
     sections: [experience, skills, education, courses]
 
   educational-analyst:
@@ -102,7 +102,7 @@ variants:
         analyse data.
       pl: >-
         Przez 23 lata pracowałem w szkołach, w programie polskim, IB i A-Level, jako nauczyciel
-        matematyki, kierownik działu i wicedyrektor. Duża część tej pracy opierała się na
+        matematyki, kierownik zespołu przedmiotowego i wicedyrektor. Duża część tej pracy opierała się na
         danych: projektowałem ankiety, analizowałem wybory przedmiotów i przedstawiałem wyniki
         uczniom, rodzicom, nauczycielom i zarządom szkół. Od 2022 roku zajmuję się inżynierią
         oprogramowania, więc potrafię też budować narzędzia do przetwarzania i analizy danych.
@@ -110,7 +110,7 @@ variants:
       - title: {en: Schools, pl: Szkoły}
         text:
           en: Head of mathematics and deputy head. Polish curriculum, International Baccalaureate and A Levels.
-          pl: Kierowanie działem matematyki i funkcja wicedyrektora. Program polski, matura międzynarodowa (IB) i A Levels.
+          pl: Kierowanie zespołem przedmiotowym matematyki i funkcja wicedyrektora. Program polski, matura międzynarodowa (IB) i A Levels.
       - title: {en: Analysis and reporting, pl: Analiza i raportowanie}
         text:
           en: Questionnaires and subject-choice analysis, with results presented from classroom to board level. Statistics studied and taught.
@@ -126,7 +126,7 @@ sections:
     title: {en: Educational data work, pl: Praca z danymi edukacyjnymi}
     intro:
       en: Carried out as head of department and deputy head, in most of the schools listed below.
-      pl: Realizowane jako kierownik działu i wicedyrektor, w większości wymienionych niżej szkół.
+      pl: Realizowane jako kierownik zespołu przedmiotowego i wicedyrektor, w większości wymienionych niżej szkół.
     items:
       - title: {en: Subject choices and student pathways, pl: Wybory przedmiotów i ścieżki edukacyjne}
         text:
@@ -152,7 +152,7 @@ sections:
             rodzicom, dyrekcji i zarządowi szkoły. Ankiety badały:
         points:
           - en: quality of teaching and of the work of school departments
-            pl: jakość nauczania i pracy poszczególnych działów szkoły
+            pl: jakość nauczania i pracy poszczególnych zespołów przedmiotowych
           - en: students' and parents' attitudes to the school and their expectations
             pl: nastawienie uczniów i rodziców do szkoły oraz ich oczekiwania
           - en: students' future plans and how the school could support them
@@ -200,35 +200,35 @@ sections:
           pl: Wsparcie dwóch równoległych potoków produkcyjnych dla różnych wersji oprogramowania graficznego, w Pythonie 2.7 i 3.9.
       - label: {en: "09.1998 – 06.2021", pl: "09.1998 – 06.2021"}
         only: [developer]
-        title: {en: "Mathematics and computer science teacher, head of Maths Department, deputy head", pl: "Nauczyciel matematyki i informatyki, kierownik działu matematyki, wicedyrektor"}
+        title: {en: "Mathematics and computer science teacher, head of Maths Department, deputy head", pl: "Nauczyciel matematyki i informatyki, kierownik zespołu przedmiotowego matematyki, wicedyrektor"}
         org: {en: "Schools in Warsaw and Bootham School, York, UK", pl: "Szkoły w Warszawie oraz Bootham School, York, Wielka Brytania"}
         text:
           en: Taught the Polish, IB and A-Level curricula, led mathematics departments, and collected and analysed school data.
-          pl: Nauczanie w programie polskim, IB i A-Level, kierowanie działami matematyki oraz zbieranie i analiza danych szkolnych.
+          pl: Nauczanie w programie polskim, IB i A-Level, kierowanie zespołami przedmiotowymi matematyki oraz zbieranie i analiza danych szkolnych.
       - label: {en: "09.2016 – 06.2021", pl: "09.2016 – 06.2021"}
         only: [data-scientist, educational-analyst]
-        title: {en: "Mathematics teacher, deputy head, head of Maths Department", pl: "Nauczyciel matematyki, wicedyrektor, kierownik działu matematyki"}
+        title: {en: "Mathematics teacher, deputy head, head of Maths Department", pl: "Nauczyciel matematyki, wicedyrektor, kierownik zespołu przedmiotowego matematyki"}
         org: {en: "Akademeia High School, Warsaw", pl: "Akademeia High School, Warszawa"}
         text:
           en: Taught Maths and Further Maths, including statistics, in the British A-Level programme. Responsible for the Maths Department, the School Office, and collecting and analysing school data.
-          pl: Nauczanie Maths i Further Maths, w tym statystyki, w brytyjskim programie A-Level. Odpowiedzialność za dział matematyki, sekretariat szkoły oraz zbieranie i analizę danych szkolnych.
+          pl: Nauczanie Maths i Further Maths, w tym statystyki, w brytyjskim programie A-Level. Odpowiedzialność za zespół przedmiotowy matematyki, sekretariat szkoły oraz zbieranie i analizę danych szkolnych.
       - label: {en: "09.2015 – 08.2019", pl: "09.2015 – 08.2019"}
         only: [data-scientist, educational-analyst]
-        title: {en: "Mathematics teacher, head of Maths Department", pl: "Nauczyciel matematyki, kierownik działu matematyki"}
+        title: {en: "Mathematics teacher, head of Maths Department", pl: "Nauczyciel matematyki, kierownik zespołu przedmiotowego matematyki"}
         org: {en: "2nd SLO IB, Warsaw", pl: "2. SLO IB, Warszawa"}
         text:
           en: Taught Mathematics Higher Level in the International Baccalaureate programme. Led the team running surveys and questionnaires, analysed the data and presented the outcomes.
           pl: Nauczanie Mathematics Higher Level w programie matury międzynarodowej (IB). Kierowanie zespołem prowadzącym ankiety i badania, analiza danych i prezentacja wyników.
       - label: {en: "09.2008 – 08.2017", pl: "09.2008 – 08.2017"}
         only: [data-scientist, educational-analyst]
-        title: {en: "Mathematics teacher, head of Maths Department", pl: "Nauczyciel matematyki, kierownik działu matematyki"}
+        title: {en: "Mathematics teacher, head of Maths Department", pl: "Nauczyciel matematyki, kierownik zespołu przedmiotowego matematyki"}
         org: {en: "Akademeia Tutorial College, Warsaw", pl: "Akademeia Tutorial College, Warszawa"}
         text:
           en: Taught a number of curricula, including Polish, IB, British and SAT Mathematics.
           pl: Nauczanie w wielu programach, m.in. matematyka w programie polskim, IB, brytyjskim i SAT.
       - label: {en: "09.1998 – 08.2015", pl: "09.1998 – 08.2015"}
         only: [data-scientist, educational-analyst]
-        title: {en: "Mathematics and computer science teacher, head of Maths Department", pl: "Nauczyciel matematyki i informatyki, kierownik działu matematyki"}
+        title: {en: "Mathematics and computer science teacher, head of Maths Department", pl: "Nauczyciel matematyki i informatyki, kierownik zespołu przedmiotowego matematyki"}
         org: {en: "Schools in Warsaw and Bootham School, York, UK", pl: "Szkoły w Warszawie oraz Bootham School, York, Wielka Brytania"}
 
   education:
