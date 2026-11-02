@@ -200,7 +200,7 @@ sections:
           pl: Wsparcie dwóch równoległych potoków produkcyjnych dla różnych wersji oprogramowania graficznego, w Pythonie 2.7 i 3.9.
       - label: {en: "09.1998 – 06.2021", pl: "09.1998 – 06.2021"}
         only: [developer]
-        title: {en: "Mathematics and computer science teacher, head of Maths Department, deputy head", pl: "Nauczyciel matematyki i informatyki, kierownik zespołu przedmiotowego matematyki, wicedyrektor"}
+        title: {en: "Mathematics and computer science teacher, later head of Maths Department and deputy head", pl: "Nauczyciel matematyki i informatyki, później kierownik zespołu przedmiotowego matematyki i wicedyrektor"}
         org: {en: "Schools in Warsaw and Bootham School, York, UK", pl: "Szkoły w Warszawie oraz Bootham School, York, Wielka Brytania"}
         text:
           en: Taught the Polish, IB and A-Level curricula, led mathematics departments, and collected and analysed school data.
