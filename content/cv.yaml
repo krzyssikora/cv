@@ -9,6 +9,7 @@ person:
   # Address and phone are in content/private.yaml, which is never uploaded.
   email: {text: krzyssikora@gmail.com, href: "mailto:krzyssikora@gmail.com"}
   github: {text: github.com/krzyssikora, href: "https://github.com/krzyssikora"}
+  homepage: {text: verteks.dev, href: "https://verteks.dev"}
 
 # The version opened by the site's main address.
 default_variant: data-scientist

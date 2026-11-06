@@ -24,6 +24,7 @@
         {% if person.phone %}<a href="{{ person.phone.href }}">{{ person.phone.text }}</a>{% endif %}
         <a href="{{ person.email.href }}">{{ person.email.text }}</a>
         <a href="{{ person.github.href }}">{{ person.github.text }}</a>
+        {% if person.homepage %}<a href="{{ person.homepage.href }}">{{ person.homepage.text }}</a>{% endif %}
       </address>
     </header>
 
